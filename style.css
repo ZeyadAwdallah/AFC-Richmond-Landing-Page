@@ -259,9 +259,6 @@ footer a:hover{
     main img{
         width: 400px;
     }
-#txt h1{
-        font-size: 45px;
-    }
     nav a:not(#wikibtn){
     display: none;
 }
