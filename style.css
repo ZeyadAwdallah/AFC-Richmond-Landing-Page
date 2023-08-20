@@ -260,7 +260,8 @@ footer a:hover{
         width: 400px;
     }
 
-    nav a:not(#wikibtn):hover{
-display: none;}
+    nav a:not(#wikibtn){
+    display: none;
+}
 }
   
