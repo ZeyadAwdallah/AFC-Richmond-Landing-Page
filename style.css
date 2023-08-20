@@ -39,6 +39,7 @@ nav a {
     text-decoration-line: none;
     color: var(--white);
     transition: color 0.5s ease;
+    text-transform: uppercase;
 
 }
 nav a:not(#wikibtn):hover{
@@ -60,7 +61,6 @@ transition: background-color 0.5s ease;
 #wikibtn:hover{
     background-color: var(--activebtn);
 }
-
 main{
     display: flex;
     margin-top: 80px;
@@ -75,11 +75,13 @@ main{
     padding: 200px 50px 30px;
 }
 #txt p{
-    font-size: 35px;
+    font-size: 30px;
     padding-left: 50px;
-    width: 920px;
+    padding-right: 30px;
 }
 main img{
+    flex: 1;
+    width:750px;
     padding: 95px 80px 95px;
     background-color: var(--white);
 }
@@ -88,6 +90,7 @@ main img{
 
 }
 #clubOfficials h1{
+    text-transform: uppercase;
     text-align: center;
     color: var(--white);
     font-size: 50px;
@@ -102,6 +105,7 @@ main img{
     padding-bottom: 50px;
 }
 #imgs img {
+    width: 300px;
     border-radius: 20%;
     margin: 50px;
     transition: box-shadow .5s ease-in;
@@ -177,3 +181,82 @@ footer a{
 footer a:hover{
     color:#48484c ;
 }
+
+@media screen and (max-width: 1350px) {
+    #txt h1{
+        font-size: 55px;
+        padding-top: 100px;
+    }
+    #txt p{
+        font-size: 22px;
+        padding-bottom: 100px;
+    }
+    main img{
+        width:550px;
+    }
+    #imgs img{
+    width: 250px;
+    }
+    #front p{
+        font-size: 20px;
+    }
+    #front h2{
+        font-size: 22px;
+    }
+    #front{
+        padding-right:100px ;
+    }
+    #back a{
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+  }
+
+  @media screen and (max-width: 932px) {
+    #txt h1{
+        font-size: 50px;
+        padding-top: 100px;
+    }
+    body{
+        background-color: var(--white);
+    }
+    #txt p{
+        font-size: 18px;
+        padding-bottom: 100px;
+    }
+    main{
+        flex-direction: column;
+    }
+    main img{
+        margin: auto;
+    }
+    #imgs img{
+               width: 230px;
+        }
+    
+    #back{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+    #front p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    #front h2{
+        font-size: 20px;
+    }
+    #front{
+        padding-right:100px ;
+    }
+    #back a{
+        margin-left: auto;
+        width: 100px;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+  }
+  @media screen and (max-width: 734px) {
+    main img{
+        width: 450px;
+    }}
+  
