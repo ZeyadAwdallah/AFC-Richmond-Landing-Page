@@ -1,7 +1,7 @@
 # Odin-Landing-Page
 
 ### Introduction
-This is my Seconed project at The Odin Project it is small recipes web using HTML CSS (Responsive) [click here](https://afc-richmond.netlify.app/#) to see it
+This is my Seconed project at The Odin Project it is landing page using HTML CSS (Responsive) [click here](https://afc-richmond.netlify.app/#) to see it
 
 For this project you'll be creating an entire web page from a design we'll provide for you. If you've been following along you should have the skills you need to accomplish this, but it may not be easy!
 
